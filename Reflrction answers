@@ -1,0 +1,25 @@
+Exercise 1 Reflection Answers:
+
+Both branches modified the same lines in the Skills section of portfolio.md differently. Git couldn't decide which version to keep.
+
+The Skills section — specifically the - Programming: and - Git: lines, plus new lines each branch added (Web Development vs Database).
+
+Pulling the latest changes before editing, coordinating which device edits which file, and merging branches sooner instead of letting them diverge.
+
+Run git pull before starting work, git push after each session, commit frequently, and avoid editing the same file offline on two devices at once.
+
+Deciding which changes to keep from each branch. Git made it easy by inserting clear markers (<<<<<<<, =======, >>>>>>>) showing exactly where the conflict was and which side each change came from.
+
+
+Exercise 2 Reflection Answers:
+
+1. 4 times — I ran git bisect good/bad 4 times total.
+
+2. About 7 checks (log₂ 100 ≈ 7). Binary search is very efficient.
+
+3. Manual checking tests every commit one by one. Bisect uses binary search — it cuts the range in half each time, so it finds the bug much faster.
+
+4. In large projects with hundreds or thousands of commits, when a bug appears but you don't know which commit introduced it.
+
+5. You need a known good commit (works correctly) and a known bad commit (has the bug). Then Git narrows down the first bad commit.
+

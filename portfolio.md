@@ -3,11 +3,11 @@
 Name: Sheharyarhumayun
 Major: Computer Programming and Analysis
 ## Skills
-- Programming: Basic
-- Git: Learning
+- Programming: Python, Java
+- Git: Intermediate
+- Web Development: HTML, CSS
 ## Projects
 - Project 1: TBD
 - Project 2: TBD
 ## Contact
 Email: shumayun4@myseneca.ca
- 
